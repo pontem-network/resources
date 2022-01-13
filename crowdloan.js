@@ -131,18 +131,6 @@ userEmail.oninput = (e) => {
     }
 }
 
-// //Проверка второго email
-// userEmail2.oninput = (e) => {
-//     if (validateEmail(e.target.value)) {
-//         document.querySelector('#start_modal_button').classList.remove("disable");
-//         localStorage.setItem('TempUserEmail', e.target.value);
-//         e.target.addEventListener('keydown', pressEnter);
-
-//     } else {
-//         document.querySelector('#start_modal_button').classList.add("disable");
-//         e.target.removeEventListener('keydown', pressEnter);
-//     }
-// }
 
 //Следующий экран при нажатии на кнопку 
 function nextStep(nextButton) {
